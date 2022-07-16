@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.beanpod \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
-    vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
+    vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
@@ -304,7 +304,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
-    vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
+    vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
@@ -623,7 +623,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.3-impl-mediatek.so \
-    vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6765.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6765.so \
@@ -1107,7 +1106,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.3-impl-mediatek.so \
-    vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6765.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6765.so \
