@@ -43,9 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.audio@5.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@5.0-service-mediatek \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
-    vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
-    vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.clearkey \
-    vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
+    vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.beanpod \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
@@ -139,9 +137,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/test_mmutils32:$(TARGET_COPY_OUT_VENDOR)/bin/test_mmutils32 \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/test_mmutils64:$(TARGET_COPY_OUT_VENDOR)/bin/test_mmutils64 \
-    vendor/xiaomi/dandelion/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
+    vendor/xiaomi/dandelion/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/volte_imcb:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imcb \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/volte_imsm_93:$(TARGET_COPY_OUT_VENDOR)/bin/volte_imsm_93 \
     vendor/xiaomi/dandelion/proprietary/vendor/bin/volte_md_status:$(TARGET_COPY_OUT_VENDOR)/bin/volte_md_status \
@@ -297,9 +295,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
-    vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
-    vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.clearkey.rc \
-    vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
+    vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc \
     vendor/xiaomi/dandelion/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
@@ -619,7 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
-    vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.3-impl-mediatek.so \
@@ -1285,7 +1280,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipsec_ims_shr.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
-	vendor/xiaomi/dandelion/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
+    vendor/xiaomi/dandelion/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/xiaomi/dandelion/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
@@ -1494,4 +1489,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EmCamera \
     SensorHub \
-    mtk-wifi-service
+    mtk-wifi-service \
+    manifest_android.hardware.drm@1.3-service.widevine
